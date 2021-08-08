@@ -1,0 +1,137 @@
+* {
+  padding: 0%;
+  margin: 0;
+  font-size: 16px;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+#topo {
+  /*border: 1px solid red;*/
+  width: 75%;
+  height: 250px;
+  margin: 1% auto;
+  background: url(/imagens/topo-imagem-principal.png) no-repeat;
+  min-width: 780px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+#topo ul {
+  /*border: 1px solid red;*/
+  background: url(/imagens/topo-imagem-lateral.png) no-repeat;
+  width: 440px;
+  height: 250px;
+  float: right;
+  list-style: none;
+}
+#lateral img {
+  /*border: 1px solid red;*/
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+}
+#topo li#primeiro {
+  margin-top: 15px;
+}
+#topo li {
+  /*border: 1px solid red;*/
+  width: max-content;
+  margin-left: 80px;
+  padding: 4px;
+  line-height: 1.5em;
+}
+
+#topo li a {
+  display: block;
+  color: #4c471b;
+}
+
+#topo #lateral div#reserva {
+  font-size: 12px;
+  margin-left: 80px;
+  padding: 6px;
+  padding-top: 6px;
+  /* border: 1px solid red; */
+  width: max-content;
+  margin-top: 10px;
+  color: #a7a062;
+  border-top: 1px solid #a7a062;
+  border-bottom: 1px solid #a7a062;
+}
+
+#topo #lateral div#reserva a {
+  margin-left: 35px;
+  /* margin-top: 9px; */
+  font-size: 0.9rem;
+  background-color: #a29750;
+  color: #e2deb7;
+  padding: 4px 16px;
+}
+
+#topo #logo {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+/* conteudo geral */
+
+#conteudo-geral {
+  /*border: 1px solid red;*/
+  display: flex;
+  width: 75%;
+  margin: 6px auto;
+  margin-top: -6px;
+  background: url(/imagens/bg-container.png) repeat center top;
+  min-width: 780px;
+  justify-content: space-between;
+}
+
+#conteudo-geral #coluna-1 {
+  border: 1px solid red;
+  width: 45%;
+  padding: 26px;
+  /* margin: 1% auto;*/
+}
+
+#conteudo-geral #coluna-2 {
+  /*border: 1px solid red;*/
+  width: 46%;
+  /* margin: 1% auto; */
+  padding: 12px;
+  padding-right: 24px;
+}
+#conteudo-geral #coluna-2 p {
+  font-size: 0.7em;
+  margin-left: 36px;
+  color: #4c471b;
+}
+#conteudo-geral #coluna-2 h2 {
+  background: url(/imagens/ornamento.png) no-repeat center right;
+  color: #4c471b;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+#conteudo-geral #coluna-2 img {
+  width: 150px;
+  float: left;
+  margin-right: 1px;
+  padding: 8px;
+}
+#conteudo-geral #coluna-2 ul li {
+  /* border: 1px solid red;*/
+  float: left;
+}
+#rodape {
+  /*border: 1px solid red;*/
+  width: 75%;
+  margin: 10px auto;
+  min-width: 780px;
+  background: #e5debe;
+  color: #645c12;
+  line-height: 26px;
+  text-align: center;
+}
